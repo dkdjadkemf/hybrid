@@ -23,7 +23,7 @@
         <activity android:name=".Login_dialog" />
         <activity android:name=".KakaoActivity" />
         <activity android:name=".Regist_dialog" />
-        <activity android:name=".tab.TabApplication">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

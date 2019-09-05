@@ -13,6 +13,7 @@ import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 
+import com.tje.yeojunglogin.Login_dialog;
 import com.tje.yeojunglogin.R;
 import com.tje.yeojunglogin.fragment.FragLogin;
 
@@ -82,15 +83,15 @@ public class TabApplication extends FragmentActivity {
             switch(position)
             {
                 case 0:
-                    return new FragLogin();
+//                    return new Login_dialog();
                 case 1:
-                    return new FragLogin();
+//                    return new Login_dialog();
                 case 2:
-                    return new FragLogin();
+//                    return new Login_dialog();
                 case 3:
-                    return new FragLogin();
+//                    return new Login_dialog();
                 case 4:
-                    return new FragLogin();
+//                    return new Login_dialog();
 
                 default:
                     return null;
